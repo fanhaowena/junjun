@@ -9,7 +9,10 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
+    <groupId>com.fanhaowen</groupId>
     <artifactId>cbasecore-facade</artifactId>
+    <version>0.0.1</version>
+
 
 
 </project>

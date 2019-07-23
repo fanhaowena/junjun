@@ -6,10 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="cbasecorefacade" />
         <module name="psbizwebendpoint" />
         <module name="psbizwebweb" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cbasecorefacade" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
